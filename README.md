@@ -1,10 +1,10 @@
+
 # POS Solution
 
 ## Overview
 
 This POS web software solution offers a comprehensive system for managing sales and inventory for businesses. It includes functionalities for both administrators and cashiers to streamline the sales process and manage inventory efficiently. 
 
-![Pos chart page](./images/pos_img.JPG)
 
 ## Technologies
 
@@ -60,3 +60,8 @@ cd Point-of-sale-system
 ## License
 
 This project is licensed under the [MIT License](./LICENSE). You can find the license file in the `LICENSE` file in this repository.
+=======
+
+# Inventory-Management
+Inventory Management PHP/MYSQL  ---  Application
+
