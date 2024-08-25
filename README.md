@@ -1,42 +1,62 @@
-<<<<<<< HEAD
-<h1 align="center">Atrana Dashboard</h1>
+# POS Solution
 
-![Screenshot](https://raw.githubusercontent.com/atranathemes/Atrana-Dashoard/main/example.jpg)
+## Overview
 
-<p align="center">Atrana is an Admin Dashboard Template that can help you grow faster. Made with Bootstrap 5.</p>
-<div align="center">
+This POS web software solution offers a comprehensive system for managing sales and inventory for businesses. It includes functionalities for both administrators and cashiers to streamline the sales process and manage inventory efficiently. 
 
-[![License](https://img.shields.io/github/license/zuramai/mazer.svg)](LICENSE)
+![Pos chart page](./images/pos_img.JPG)
 
-</div>
+## Technologies
 
-<p align="center">
-	<a href="https://atranathemes.github.io/Atrana/">Demo Page</a>&nbsp;&nbsp;&nbsp;
-	<a href="">Documentation Page (Coming soon)</a>&nbsp;&nbsp;&nbsp;
-</p>
+- Html5 
+- Css3
+- Javascript
+- Ajax
+- Npm
+- Apex Chart
+- Fpdf
+- Php
+- Mysql
 
-## Installation
+## Features
 
-1. Clone this repository or download as zip.
+- **Admin and Cashier Login and Logout**: Secure access for administrators and cashiers.
+- **Receipt Generation**: Automatically generate receipts after sales transactions.
+- **Sales Reports**: 
+    - View real time sales charts (daily, weekly, monthly,  yearly, and custom) and snapshots for an easy  overview of business performance.
+    - Generate PDF and CSV files for sales reports.
+    - View detailed sales reports including cashier information, sale time, items bought, and payment method.
+- **Notes**: Add and store notes to the local storage of the browser.
+- **Distributor Management**: Admin can add or remove distributors.
+- **Cashier Management**: Admin can add or remove cashiers from the system.
+- **Settings**:
+    - Adjust system settings such as resetting expiry countdown and product out-of-stock threshold.
+    - Updating of admin login details.
 
-```sh
-git clone https://github.com/atranathemes/Atrana.git
+- **Notifications**:
+   - Admin can get real time notifications on products out of stock base on the threshold set or products close to expiry base on the countdown set.
+    
+- **UDO (unsold,destroyed,other) list**:
+   - Admin can remove any product along with its quantity if it is destroyed, unsold, internally used, or for other reasons.
+     
+ - **Product restocking**:
+   - When a product is out of stock, it can be restocked efficiently.
+
+- **Updating of sales price**:
+   - In situations where sales prices or tax values need to be updated, you can easily do so with a click.
+
+## Shell
+
+To clone the repository and get started with the project, use the following shell commands:
+
+```shell
+git clone https://github.com/Emm-Anuel100/Point-of-sale-system.git
+```
+
+```shell
+cd Point-of-sale-system
 ```
 
 ## License
 
-Atrana is under [MIT License](./LICENSE).
-
-## Author
-
-Atrana is created by <a href="https://www.facebook.com/andreew.co.id/">Andre Tri Ramadana</a>.
-
-## Donation
-
-You can support Andre Tri Ramadana at [Trakteer](https://trakteer.id/atranathemes)
-
-<a href="https://www.buymeacoffee.com/atranathemes" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: 41px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" ></a>
-=======
-# Inventory-Management
-Main Inventory Management PHP/MYSQL  ---  Application
->>>>>>> 1f62ef8c21277fc575472f1d19ee5283223a6ee5
+This project is licensed under the [MIT License](./LICENSE). You can find the license file in the `LICENSE` file in this repository.
